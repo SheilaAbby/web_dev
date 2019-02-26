@@ -13,7 +13,7 @@ ourData = list(fileReader)
 
 ourDataInJson = json.dumps(ourData)
 
-decodeJsonData = json.loads(ourDataInJson) # parse the JSON into python dict
+decodeJsonData = json.loads(ourDataInJson) # parse the JSON into python list
 # store the json data in sales_json_data.json file
 json.dump(decodeJsonData, jsonFile)  # json.dump writing data to files
 
